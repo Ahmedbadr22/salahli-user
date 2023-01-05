@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">صلحلي</string>
+    <string name="logo_content_description">هذه صوره شعار التطبيق عبراه عن مطرقه و مفك في مربع احمر</string>
+    <string name="splash_screen_caption">احصل علي فني تصليح في اسرع وقت واقل تكلفه</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="enter_email_address">ادخل عنوان البريد الالكتروني</string>
+    <string name="enter_password">ادخل الرقم السري</string>
+    <string name="remember_me">تذكرني</string>
+    <string name="create_new_account">تسجيل حساب جديد</string>
+    <string name="forgot_password">هل نسيت الرقم السري؟</string>
+    <string name="get_it_back">قم باسترجاعه</string>
+    <string name="notification_icon_button">زر الاشعارات</string>
+    <string name="you_can_request_a_technician_now">يمكنك طلب فني الان</string>
+    <string name="user_profile_image">صوره ملف المستخدم</string>
+    <string name="my_profile">حسابي</string>
+    <string name="services">الخدمات</string>
+    <string name="home">الرئيسيه</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="user_welcome_message">اهلا بك</string>
+    <string name="account_settings">اعدادات الحساب</string>
+    <string name="change_all_account_settings">تعديل جميع اعدادات الحساب</string>
+    <string name="choose_app_language">اختار لغه التطبيق</string>
+    <string name="change_language">تغيير اللغه</string>
+    <string name="notification">الاشعارات</string>
+    <string name="turning_on_of_notifications">فتح او غلق استقبال الاشعارات</string>
+    <string name="dark_theme">الوضع المظلم</string>
+    <string name="turn_on_night_vision_mode">فتح وضع الرؤيه الليليه</string>
+    <string name="know_all_terms_and_conditions">معرفه جميع الشروط والاحكام</string>
+    <string name="terms_and_conditions">الشروط والاحكام</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="contact_us_for_technical_support">تواصل معنا للدعم الفني</string>
+    <string name="my_orders">طلباتي</string>
+    <string name="cancel_order">الغاء الطلب</string>
+    <string name="search">بحث</string>
+    <string name="show_all">عرض الكل</string>
+    <string name="choose_your_service_with_ease">(اختر خدمتك بكل سهوله)</string>
+    <string name="fault_detection_services">خدمات كشف الاعطال</string>
+    <string name="last_orders">الطلبات السابقه</string>
+    <string name="current">الطلبات الحاليه</string>
+    <string name="dummy_ahmed_badr">احمد بدر عبد الدايم </string>
+    <string name="dummy_plumber">نجار</string>
+    <string name="location">العنوان</string>
+    <string name="reviews">التقيمات</string>
+    <string name="order">اطلب الان</string>
+</resources>

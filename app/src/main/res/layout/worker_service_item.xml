@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginVertical="5dp"
+    android:layout_marginHorizontal="16dp"
+    style="@style/Widget.MaterialComponents.CardView.ClickableBorderCard">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+
+        <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+            android:id="@id/imageViewWorkerImageCard"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:cardCornerRadius="16dp"
+            app:strokeColor="@color/primary"
+            app:strokeWidth="1dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageViewWorkerImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/worker_profile_image"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+
+        <TextView
+            android:id="@+id/textViewWorkerName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginHorizontal="8dp"
+            android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+            android:text="@string/app_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageViewWorkerImageCard"
+            app:layout_constraintTop_toTopOf="@+id/imageViewWorkerImageCard" />
+
+        <TextView
+            android:id="@+id/textViewServiceCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="@string/app_name"
+            android:maxLines="1"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewRating"
+            app:layout_constraintEnd_toStartOf="@+id/textViewRating"
+            app:layout_constraintStart_toStartOf="@+id/textViewWorkerName"
+            app:layout_constraintTop_toTopOf="@+id/textViewRating" />
+
+        <ImageView
+            android:id="@+id/imageViewRateImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/rate_stare"
+            app:layout_constraintEnd_toEndOf="@+id/textViewWorkerName"
+            app:layout_constraintTop_toBottomOf="@+id/textViewWorkerName"
+            app:srcCompat="@drawable/ic_baseline_star_outline" />
+
+        <TextView
+            android:id="@+id/textViewRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:maxLines="1"
+            android:text="@string/dummy_5_out_of_10"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewRateImage"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewRateImage"
+            app:layout_constraintTop_toTopOf="@+id/imageViewRateImage" />
+
+        <TextView
+            android:id="@+id/textViewAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/app_name"
+            app:layout_constraintStart_toStartOf="@+id/textViewServiceCategory"
+            app:layout_constraintTop_toBottomOf="@+id/textViewServiceCategory" />
+
+        <TextView
+            android:id="@+id/textViewYearOfExperience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/dummy_age"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewRateImage"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textViewAge"
+            app:layout_constraintTop_toTopOf="@+id/textViewAge" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

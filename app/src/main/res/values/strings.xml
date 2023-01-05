@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Salahli</string>
+    <string name="logo_content_description">This is the app logo image hummer in a red rectangle</string>
+    <string name="splash_screen_caption">Find a technician in the fastest time and lowest cost</string>
+    <string name="login">Login</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="get_it_back">Get it back</string>
+    <string name="notification_icon_button">Notification Icon Button</string>
+    <string name="you_can_request_a_technician_now">You can request a technician now</string>
+    <string name="user_profile_image">User Profile Image</string>
+    <string name="my_profile">My Profile</string>
+    <string name="services">Services</string>
+    <string name="home">Home</string>
+    <string name="user_name">User Name</string>
+    <string name="dummy_phone_number" translatable="false">(01222742623)</string>
+    <string name="user_welcome_message">Welcome %s</string>
+    <string name="account_settings">ٍAccount Settings</string>
+    <string name="change_all_account_settings">Change All Account Settings</string>
+    <string name="click_label_arrow" translatable="false">Click Label Arrow</string>
+    <string name="settings_icon" translatable="false">Settings Icon</string>
+    <string name="choose_app_language">Choose App Language</string>
+    <string name="change_language">Change Language</string>
+    <string name="notification">Notification</string>
+    <string name="turning_on_of_notifications">Turning On/Of Notifications</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="turn_on_night_vision_mode">Turn On Night Vision Mode</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="know_all_terms_and_conditions">Know all terms and conditions</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_us_for_technical_support">Contact Us For Technical Support</string>
+    <string name="my_orders">My Orders</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="search">Search</string>
+    <string name="show_all">Show all</string>
+    <string name="choose_your_service_with_ease">(Choose your service with ease)</string>
+    <string name="this_is_the_main_banner_image" translatable="false">This is the main banner image</string>
+    <string name="fault_detection_services">Fault detection services</string>
+    <string name="click_direction_button" translatable="false">Click Direction Button</string>
+    <string name="worker_profile_image" translatable="false">Worker Profile Image</string>
+    <string name="rate_stare" translatable="false">Rate Stare</string>
+    <string name="dummy_5_out_of_10" translatable="false">5 out of 10</string>
+    <string name="dummy_age" translatable="false">15 سنه</string>
+    <string name="last_orders">Last Orders</string>
+    <string name="current">Current Orders</string>
+    <string name="dummy_ahmed_badr">Ahmed Badr Abdelsalam</string>
+    <string name="dummy_plumber">Plumber</string>
+    <string name="location">Location</string>
+    <string name="worker_rating" translatable="false">Worker Rating</string>
+    <string name="location_icon" translatable="false">Location Icon</string>
+    <string name="years_of_experience_icon" translatable="false">Years Of Experience Icon</string>
+    <string name="dummy_10" translatable="false">10 سنين</string>
+    <string name="worker_job_icon" translatable="false">Worker Job Icon</string>
+    <string name="dummy_rating_3_5_500" translatable="false">3.5 (500)</string>
+    <string name="reviews">Reviews</string>
+    <string name="order">Order Now</string>
+</resources>
